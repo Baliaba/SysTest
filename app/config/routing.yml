@@ -1,3 +1,7 @@
+export:
+    resource: "@ExportBundle/Resources/config/routing.yml"
+    prefix:   /
+
 document:
     resource: "@DocumentBundle/Resources/config/routing.yml"
     prefix:   /
