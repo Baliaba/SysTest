@@ -1,0 +1,22 @@
+<!DOCTYPE html lang=fr&>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{{asset('public/css/index.css')}}"/>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            {% block body %}<input type="text" placeholder="Rechercher votre mot  ici"/>
+            <div class="list">
+
+            </div>{% endblock %}
+        </div>
+        <script type="text/javascript" src="{{asset('public/js/jquery-1.12.4.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('public/js/index.js')}}"></script>
+        <script type="text/javascript" src="{{asset('public/js/underscore-min.js')}}"></script>
+    </body>
+</html>

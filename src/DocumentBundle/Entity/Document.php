@@ -22,6 +22,14 @@ class Document
     private $id;
 
     /**
+      * @ORM\ManyToOne(targetEntity="DocumentBundle\Entity\Master")
+      * @ORM\JoinColumn(nullable=false)
+      */
+     private $master;
+
+
+
+    /**
      * @var string
      *
      * @ORM\Column(name="name", type="string", length=255)
@@ -124,5 +132,15 @@ class Document
     {
         return $this->type;
     }
-}
 
+    public function getMaster()
+    {
+      return $this->master;
+    }
+
+    public function setMaster($master)
+    {
+      $this->type = $type;
+      return $this;
+    }
+}

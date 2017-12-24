@@ -1,3 +1,7 @@
 document_homepage:
     path:     /
-    defaults: { _controller: DocumentBundle:Default:index }
+    defaults: { _controller: DocumentBundle:Home:index }
+
+get_json:
+    path:     /get
+    defaults: { _controller: DocumentBundle:Home:getJson }

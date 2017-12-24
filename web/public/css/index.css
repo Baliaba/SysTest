@@ -1,0 +1,17 @@
+input{
+    height:30px;
+    width:400px;
+}
+.list{
+  display:block;
+  width:400px;
+  height:300px;
+  border:solid grey 1px;
+}
+.list .line{
+  cursor : pointer;
+}
+#content{
+  margin-left : 30%;
+  margin-top : 15%
+}
