@@ -6,7 +6,7 @@
         "psr-4": {
             "AppBundle\\": "src/AppBundle",
             "DocumentBundle\\": "src/DocumentBundle",
-              "ExportBundle\\": "src/ExportBundle",
+              "ExportBundle\\": "src/ExportBundle"
         },
         "classmap": [
             "app/AppKernel.php",
